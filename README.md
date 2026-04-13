@@ -11,4 +11,5 @@
 Скрипт запускается на одноплатном компьютере (Orange Pi), где уже работают Klipper и Moonraker. Он подключается к Moonraker по HTTP API и отправляет G-код команды `SET_HEATER_TEMPERATURE` для каждого из девяти нагревателей, определённых в конфигурации Klipper как `[heater_generic]`. Температурные профили хранятся внутри скрипта. Пользователь через меню выбирает нужный профиль или вводит температуры вручную, после чего команды уходят на выполнение. Обратная связь (текущие температуры) также получается через Moonraker API.
 
 ## Результат работы DEMO
-DEMOresult.bmp
+[DEMOresult.bmp
+](https://github.com/YuriiBelosludtsev/POPRS/blob/main/DEMOresult.bmp)
